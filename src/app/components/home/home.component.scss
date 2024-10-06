@@ -1,0 +1,74 @@
+.nav {
+  display: flex;
+  justify-content: center;  /* Center the nav items horizontally */
+  align-items: center;      /* Center the nav items vertically */
+  gap: 20px;  
+  margin-left: 21%;              /* Optional: Adds space between the nav items */
+}
+
+.nav-item {
+  text-align: center;       /* Center text below the image */
+  
+}
+
+.navbar-brand {
+  display: flex;
+  font-size: medium;
+  font-weight: 600;
+  flex-direction: column;    /* Stack image and text vertically */
+  align-items: center;       /* Center them */
+  text-decoration: none;     /* Remove underline from links */
+}
+
+.navbar-brand img {
+  margin-bottom: 5px;
+ // min-width: 4%;
+          /* Adds a little space between image and text */
+}
+
+.cursor{
+  cursor:pointer;
+}
+ .img{
+  width:200%;
+   margin-left: 100px;
+   border-radius: 5px;
+ }
+.custom{
+  margin-left: 18rem;
+}
+.customCss{
+  margin-left: 5px;
+  border-radius: 5px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .nav div nav nav-item:hover {
+//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow on hover */
+// }
+
+
