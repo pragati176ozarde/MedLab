@@ -17,6 +17,6 @@ export class ApiService {
 
   getDataFromServer(endpoint: String) {
     const url = this.baseUrl + endpoint;
-    return this.http.get(url, { headers: this.httpHeaders });
+    return this.http.get(url, { headers: this.httpHeaders});
   }
 }
